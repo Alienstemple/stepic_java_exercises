@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="52af1350-981f-4584-be01-653785f64442" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Wz1K1t3oC2ymI1j07viM96Kpe0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.BorisovskayaINC" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.BorisovskayaINC.Main" />
+      <module name="Archiver" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52af1350-981f-4584-be01-653785f64442" name="Default Changelist" comment="" />
+      <created>1580137541914</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580137541914</updated>
+      <workItem from="1580137546547" duration="4117000" />
+      <workItem from="1580379592342" duration="7908000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="721" y="184" width="492" height="699" key="#com.intellij.ide.util.MemberChooser" timestamp="1580395027431">
+      <screen x="0" y="31" width="1920" height="1000" />
+    </state>
+    <state x="721" y="184" width="492" height="699" key="#com.intellij.ide.util.MemberChooser/0.31.1920.1000@0.31.1920.1000" timestamp="1580395027431" />
+    <state x="461" y="321" key="com.intellij.ide.util.TipDialog" timestamp="1580379601131">
+      <screen x="0" y="31" width="1920" height="1000" />
+    </state>
+    <state x="461" y="321" key="com.intellij.ide.util.TipDialog/0.31.1920.1000@0.31.1920.1000" timestamp="1580379601131" />
+    <state x="594" y="143" width="727" height="780" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1580381117924">
+      <screen x="0" y="31" width="1920" height="1000" />
+    </state>
+    <state x="594" y="143" width="727" height="780" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.31.1920.1000@0.31.1920.1000" timestamp="1580381117924" />
+    <state x="486" y="30" key="search.everywhere.popup" timestamp="1580138763081">
+      <screen x="0" y="31" width="1920" height="1000" />
+    </state>
+    <state x="486" y="30" key="search.everywhere.popup/0.31.1920.1000@0.31.1920.1000" timestamp="1580138763081" />
+  </component>
+</project>
