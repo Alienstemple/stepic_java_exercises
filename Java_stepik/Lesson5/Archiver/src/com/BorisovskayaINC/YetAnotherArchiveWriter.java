@@ -5,15 +5,16 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributes;
+import java.util.zip.GZIPOutputStream;
 
 public class YetAnotherArchiveWriter implements AutoCloseable {
 
     private final DataOutputStream outputStream;   // выходной поток байтов с доп операциями для java-примитивов
 
     public YetAnotherArchiveWriter(Path outputFile) throws IOException {   // оборачиваем экземпляр OutputStream с параметром-вых.файлом и флагами
-        this.outputStream = new DataOutputStream(Files.newOutputStream(    // экземпляром DataOutputStream (для примитивов)
+        this.outputStream = new DataOutputStream(new GZIPOutputStream(Files.newOutputStream(    // экземпляром DataOutputStream (для примитивов)
                 outputFile,
-                StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING));// если нет - создать, стереть перед записью
+                StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)));// если нет - создать, стереть перед записью
     }
     public void addDirectoryRecursively(Path directory) throws IOException {  // рекурсивный обход всех вложенных директорий
         Files.walkFileTree(directory, new SimpleFileVisitor<Path>() {  // walkFileTree - спец метод; new - объявление анонимного класса

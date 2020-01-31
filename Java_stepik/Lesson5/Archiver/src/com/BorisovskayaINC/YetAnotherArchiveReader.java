@@ -10,13 +10,14 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import  java.nio.file.attribute.AclFileAttributeView;
 import java.nio.file.attribute.FileTime;
+import java.util.zip.GZIPInputStream;
 
 public class YetAnotherArchiveReader implements AutoCloseable {
     private final DataInputStream inputStream;
     private ArchiveEntry currentEntry;
 
     public YetAnotherArchiveReader(Path file) throws IOException {
-        inputStream = new DataInputStream(Files.newInputStream(file));
+        inputStream = new DataInputStream( new GZIPInputStream(Files.newInputStream(file)));
         currentEntry = null;
     }
 
