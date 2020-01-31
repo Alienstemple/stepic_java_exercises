@@ -71,7 +71,8 @@
       <option name="presentableId" value="Default" />
       <updated>1580137541914</updated>
       <workItem from="1580137546547" duration="4117000" />
-      <workItem from="1580379592342" duration="7908000" />
+      <workItem from="1580379592342" duration="8106000" />
+      <workItem from="1580461199639" duration="2249000" />
     </task>
     <servers />
   </component>
@@ -79,14 +80,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="414" y="183" width="1332" height="698" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580461498205">
+      <screen x="0" y="31" width="1920" height="1000" />
+    </state>
+    <state x="414" y="183" width="1332" height="698" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.31.1920.1000@0.31.1920.1000" timestamp="1580461498205" />
     <state x="721" y="184" width="492" height="699" key="#com.intellij.ide.util.MemberChooser" timestamp="1580395027431">
       <screen x="0" y="31" width="1920" height="1000" />
     </state>
     <state x="721" y="184" width="492" height="699" key="#com.intellij.ide.util.MemberChooser/0.31.1920.1000@0.31.1920.1000" timestamp="1580395027431" />
-    <state x="461" y="321" key="com.intellij.ide.util.TipDialog" timestamp="1580379601131">
+    <state x="461" y="321" key="com.intellij.ide.util.TipDialog" timestamp="1580461202246">
       <screen x="0" y="31" width="1920" height="1000" />
     </state>
-    <state x="461" y="321" key="com.intellij.ide.util.TipDialog/0.31.1920.1000@0.31.1920.1000" timestamp="1580379601131" />
+    <state x="461" y="321" key="com.intellij.ide.util.TipDialog/0.31.1920.1000@0.31.1920.1000" timestamp="1580461202246" />
     <state x="594" y="143" width="727" height="780" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1580381117924">
       <screen x="0" y="31" width="1920" height="1000" />
     </state>
